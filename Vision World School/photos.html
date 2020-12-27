@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Vision World School - Photos | visionworldschoolbihar.com</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="/IMG/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  </head>
+  <body>
+    <div class="main-container">
+    <nav>
+      <div class="logo"><img src="/IMG/logo.png" alt=""></div>
+<label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About Us</a></li>
+          <li>
+                    <label for="btn-2" class="show">Academic <i class="fa fa-angle-down"></i></label>
+                    <a href="#">Academic <i class="fa fa-angle-down"></i></a>
+                    <input type="checkbox" id="btn-2">
+                    <ul>
+                      <li><a href="/holiday-calender.html">Holiday Calender</a></li>
+          <li>
+                        <label for="btn-3" class="show">Our Facilities <i class="fa fa-angle-down"></i></label>
+                        <a href="#">Our Facilities <i class="fa fa-angle-down"></i></a>
+                        <input type="checkbox" id="btn-3">
+                        <ul>
+          <li><a href="/hostel-facilities.html">Hostel Facilities</a></li>
+          <li><a href="/transport-facilities.html">Transport Facilities</a></li>
+          <li><a href="/class-uniform.html">School Uniform</a></li>
+          </ul>
+          </li>
+          </ul>
+          </li>
+<li>
+  <label for="btn-1" class="show">Gallery <i class="fa fa-angle-down"></i></label>
+          <a href="#">Gallery <i class="fa fa-angle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+<li><a href="/photos.html">Photos</a></li>
+<li><a href="/videos.html">Videos</a></li>
+</ul>
+</li>
+<li><a href="/contact.html">Contact</a></li>
+</ul>
+</nav>
+    <div class="content2">
+      <div class="groupimg">Photo Gallery</div>
+        <!-- Container for the image gallery -->
+<div class="container">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+      <img src="/IMG/girlskarate.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="/IMG/karate.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+      <img src="/IMG/music.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+      <img src="/IMG/plants.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/IMG/yoga.jpg" style="width:100%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="/IMG/zoo1.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Image text -->
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="/IMG/girlskarate.jpg" style="width:100%" onclick="currentSlide(1)" alt="Click to view">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/IMG/karate.jpg" style="width:100%"onclick="currentSlide(2)" alt="Click to view">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/IMG/music.jpg" style="width:100%" onclick="currentSlide(3)" alt="Click to view">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/IMG/plants.jpg" style="width:100%" onclick="currentSlide(4)" alt="Click to view">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/IMG/yoga2.jpg" style="width:100%" onclick="currentSlide(5)" alt="Click to view">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="/IMG/zoo1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Click to view">
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script>
+      $('.icon').click(function(){
+        $('span').toggleClass("cancel");
+      });
+    </script>
+  <script src="/script.js"></script>
+  </body>
+</html>
